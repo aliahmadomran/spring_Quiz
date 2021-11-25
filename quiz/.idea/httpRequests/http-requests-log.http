@@ -1,0 +1,110 @@
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car2",
+  "productDescription":"BMW2" ,
+  "productCategory": "Taxi2"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car1",
+  "productDescription":"BMW1" ,
+  "productCategory": "Taxi1"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
+POST http://localhost:8080/salesSystem/api/products/add
+Content-Type: application/json
+
+{
+  "productName": "car",
+  "productDescription":"BMW" ,
+  "productCategory": "Taxi"
+}
+
+###
+
