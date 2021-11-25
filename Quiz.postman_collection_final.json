@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "0d917541-86d5-4dc7-903e-25c8897ce5d9",
+		"name": "Quiz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "addProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productName\": \"\",\r\n  \"productDescription\":\"\" ,\r\n  \"productCategory\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/products/addProduct",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"products",
+								"addProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllProducts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/products/getAllProducts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"products",
+								"getAllProducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProduct",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productName\": \"\",\r\n  \"productDescription\":\"\" ,\r\n  \"productCategory\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/products/updateProduct/12",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"products",
+								"updateProduct",
+								"12"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clients",
+			"item": [
+				{
+					"name": "addClient",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"clientName\": \"\",\r\n  \"clientLastName\":\"\" ,\r\n  \"clientMobile\": \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/clients/addClient",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"clients",
+								"addClient"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllClients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/clients/getAllClients",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"clients",
+								"getAllClients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateClient",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"clientName\": \"\",\r\n        \"clientLastName\": \"\",\r\n        \"clientMobile\": 933111222\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/clients/updateClient/4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"clients",
+								"updateClient",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sales",
+			"item": [
+				{
+					"name": "getAllSales",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/sales/getAllSales",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"sales",
+								"getAllSales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addSale",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clientId\": 4,\r\n    \"sellerName\": \"aa\",\r\n    \"productQuantity\": [\r\n        {\r\n            \"pId\": 12,\r\n            \"quantity\": 12.72,\r\n            \"price\": 10.3\r\n        },\r\n        {\r\n            \"pId\": 8,\r\n            \"quantity\": 6.2,\r\n            \"price\": 15.3\r\n        },\r\n        {\r\n            \"pId\": 9,\r\n            \"quantity\": 7.6,\r\n            \"price\": 12.3\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/sales/addSale",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"sales",
+								"addSale"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateSale",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"productQuantity\": [\r\n        {\r\n            \"pId\": 12,\r\n            \"quantity\": 12.0,\r\n            \"price\": 10.3\r\n        },\r\n        {\r\n            \"pId\": 8,\r\n            \"quantity\": 6.2,\r\n            \"price\": 15.3\r\n        },\r\n        {\r\n            \"pId\": 9,\r\n            \"quantity\": 7.6,\r\n            \"price\": 12.3\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/sales/updateSale/7",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"sales",
+								"updateSale",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
